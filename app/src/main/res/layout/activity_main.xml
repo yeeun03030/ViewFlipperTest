@@ -17,21 +17,21 @@
             android:id="@+id/btnPrev"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Prev"
+            android:text="사진보기 시작"
             android:layout_marginRight="15dp" />
 
         <Button
             android:id="@+id/btnNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Next" />
+            android:text="사진보기 정지" />
 
     </LinearLayout>
 
     <ViewFlipper
         android:id="@+id/flipper"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent" >
 
         <LinearLayout
             android:orientation="vertical"
